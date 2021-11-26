@@ -12,7 +12,7 @@ with open("beatles.txt","r") as file:
     Replace8 = Replace7.split(" ")
    
 #test
-    
+#test(tr)
 for x in (Replace8):
     Replace8.count(x)
     wordcount.append(Replace8.count(x))
