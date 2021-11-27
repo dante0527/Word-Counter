@@ -1,3 +1,5 @@
+import re
+
 wordcount = []
 filters = [". ", ", ", "\(", "\)"]
 # wordcount = {i:wordcount.count(i) for i in wordcount}
