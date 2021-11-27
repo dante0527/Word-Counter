@@ -1,3 +1,6 @@
+from os import closerange
+import re
+
 wordcount = []
 filters = [". ", ", ", "\(", "\)"]
 # wordcount = {i:wordcount.count(i) for i in wordcount}
@@ -15,7 +18,9 @@ with open("beatles.txt", "r") as file:
 
 #test
 #test(tr)
-for x in (Replace7):
-    Replace7.count(x)
-    wordcount.append(Replace7.count(x))
-    print(x,Replace7.count(x))
+
+noPunc = list(map(lambda x: re.sub("[^\w\s]", '', x), Replace8))
+noNewline = list(map(lambda x: x.replace('\n', ' '), noPunc))
+
+
+print(noNewline)
