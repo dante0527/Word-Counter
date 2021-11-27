@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 from os import closerange
+=======
+>>>>>>> 0fdbed38b382cfd07a3efd01711ce7c434abe64b
 import re
 
 wordcount = []
