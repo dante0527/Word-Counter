@@ -1,8 +1,5 @@
 import re
 
-wordcount = []
-filters = [". ", ", ", "\(", "\)"]
-# wordcount = {i:wordcount.count(i) for i in wordcount}
 with open("beatles.txt", "r") as file:
     words = file.read()
     Replace = words.split()
