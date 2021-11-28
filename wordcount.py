@@ -9,3 +9,4 @@ with open("beatles.txt", "r") as file:
 
 print(noNewline)
 print(len(noNewline))
+
