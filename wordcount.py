@@ -1,8 +1,8 @@
 import re
 from functions import *
 
-with open("beatles.txt", "r") as beatles:
-    WordCount(beatles)
+def main():
+    print(WordCount("beatles.txt"))
 
-# resolve FileNotFoundError ??? to get code working
-# then work on output
+if __name__ == "__main__":
+    main()
