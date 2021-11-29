@@ -2,7 +2,8 @@ import re
 from functions import *
 
 def main():
-    print(WordCount("beatles.txt"))
-
+    beatles = noPunc(WordCount("beatles.txt"))
+    print(beatles)
+    
 if __name__ == "__main__":
     main()
