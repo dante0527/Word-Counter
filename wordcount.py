@@ -2,7 +2,7 @@ import re
 from functions import *
 
 def main():
-    beatles = noPunc(WordCount("beatles.txt"))
+    beatles = noPunc(makeArray("beatles.txt"))
     print(beatles)
     
 if __name__ == "__main__":

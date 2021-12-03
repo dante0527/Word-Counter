@@ -1,7 +1,7 @@
 import re
 
 
-def WordCount(rawtextfile):
+def makeArray(rawtextfile):
     with open(rawtextfile, "r") as file:
         words = file.read()
         Replace = words.split()
